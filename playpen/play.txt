@@ -1,0 +1,7 @@
+mkdir [make directory]
+
+tree -c [show tree in blue and white]
+
+cp -R sandbox/* playpen/
+
+mv [original.type] [new.type]
