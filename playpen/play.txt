@@ -1,0 +1,8 @@
+% Copy "sandbox" folder contents to playpen:
+mkdir playpen
+
+% Rename files
+mv command.txt play.txt
+mv dir1 folder1
+mv dir2 folder2
+

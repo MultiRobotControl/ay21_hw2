@@ -1,0 +1,3 @@
+% Make new folder in directory:
+mkdir sandbox
+gedit commands.txt

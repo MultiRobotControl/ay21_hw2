@@ -1,0 +1,8 @@
+% TO make 2 new folders:
+mkdir dir1 dir2
+
+% TO create new text files:
+gedit file1.txt
+
+% Change to directory dir2 before creating new file
+gedit file2.txt
