@@ -1,0 +1,34 @@
+developer@ip-172-30-57-215:~$ cd samuel.royster/ay21_hw2
+developer@ip-172-30-57-215:~/samuel.royster/ay21_hw2$ tree
+.
+├── README.md
+├── playpen
+│   ├── commands.txt
+│   ├── dir1
+│   │   └── file1.txt
+│   └── dir2
+│       └── file2
+├── sandbox
+│   ├── commands.txt
+│   ├── dir1
+│   │   └── file1.txt
+│   └── dir2
+│       ├── commands.txt
+│       └── file2
+└── tree.out
+
+6 directories, 9 files
+developer@ip-172-30-57-215:~/samuel.royster/ay21_hw2$ cd sandbox/dir2
+developer@ip-172-30-57-215:~/samuel.royster/ay21_hw2/sandbox/dir2$ rm commands.txtdeveloper@ip-172-30-57-215:~/samuel.royster/ay21_hw2/sandbox/dir2$ cd
+developer@ip-172-30-57-215:~$ cd samuel.royster/ay21_hw2
+developer@ip-172-30-57-215:~/samuel.royster/ay21_hw2$ cd sandbox/dir1
+developer@ip-172-30-57-215:~/samuel.royster/ay21_hw2/sandbox/dir1$ cd
+developer@ip-172-30-57-215:~$ cd samuel.royster/ay21_hw2
+developer@ip-172-30-57-215:~/samuel.royster/ay21_hw2$ cd playpen/dir1
+developer@ip-172-30-57-215:~/samuel.royster/ay21_hw2/playpen/dir1$ cd
+developer@ip-172-30-57-215:~$ cd samuel.royster/ay21_hw2
+developer@ip-172-30-57-215:~/samuel.royster/ay21_hw2$ cd playpen
+developer@ip-172-30-57-215:~/samuel.royster/ay21_hw2/playpen$ mv dir1 folder1
+developer@ip-172-30-57-215:~/samuel.royster/ay21_hw2/playpen$ mv dir2 folder2
+developer@ip-172-30-57-215:~/samuel.royster/ay21_hw2/playpen$ tree
+
