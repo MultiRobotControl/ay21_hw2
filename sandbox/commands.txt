@@ -1,0 +1,25 @@
+developer@ip-172-30-53-203:~/samuel.royster/ay21_hw2$ mkdir sandbox
+developer@ip-172-30-53-203:~/samuel.royster/ay21_hw2$ cd sandbox
+developer@ip-172-30-53-203:~/samuel.royster/ay21_hw2/sandbox$ gedit commands.txt
+
+(gedit:404): dbind-WARNING **: 18:17:45.580: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(gedit:404): GVFS-RemoteVolumeMonitor-WARNING **: 18:17:45.679: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+developer@ip-172-30-53-203:~/samuel.royster/ay21_hw2/sandbox$ list
+bash: list: command not found
+developer@ip-172-30-53-203:~/samuel.royster/ay21_hw2/sandbox$ ls
+commands.txt
+developer@ip-172-30-53-203:~/samuel.royster/ay21_hw2/sandbox$ mkdir dir1
+developer@ip-172-30-53-203:~/samuel.royster/ay21_hw2/sandbox$ cd dir1
+developer@ip-172-30-53-203:~/samuel.royster/ay21_hw2/sandbox/dir1$ gedit file1.txt
+
+(gedit:453): dbind-WARNING **: 18:21:20.542: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(gedit:453): GVFS-RemoteVolumeMonitor-WARNING **: 18:21:20.639: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+developer@ip-172-30-53-203:~/samuel.royster/ay21_hw2/sandbox/dir1$ cd sandbox
+bash: cd: sandbox: No such file or directory
+developer@ip-172-30-53-203:~/samuel.royster/ay21_hw2/sandbox/dir1$ cd
+developer@ip-172-30-53-203:~$ cd samuel.royster/ay21_hw2/sandbox
+developer@ip-172-30-53-203:~/samuel.royster/ay21_hw2/sandbox$ mkdir dir2
+developer@ip-172-30-53-203:~/samuel.royster/ay21_hw2/sandbox$ cd dir2
+developer@ip-172-30-53-203:~/samuel.royster/ay21_hw2/sandbox/dir2$ gedit file2
