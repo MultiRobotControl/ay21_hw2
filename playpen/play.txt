@@ -1,0 +1,5 @@
+cp -R sandbox playpen
+mv playpen/commands.txt playpen/play.txt
+mv playpen/dir1/ playpen/folder1
+mv playpen/dir2/ playpen/folder2
+vim playpen/play.txt
